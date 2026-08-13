@@ -1,6 +1,6 @@
 print("boletim notas")
 
-nome = input("\n Nome do(a) Aluno(a): ")
+nome = input(" \nNome do(a) Aluno(a): ")
 curso = input(" \nQual seu curso?: ")
 semestre = input("\nQual seu semestre?: ")
 disciplina = input("\nQual discplina?: ")
@@ -18,4 +18,4 @@ elif media_final < 6.0 and media_final > 19.0:
 elif media_final > 100.0:
     print("VALOR INVALIDO!")
 else:
-    print(f"\n | nome:  {nome}\n | curso:  {curso}\n | semestre:  {semestre}\n | discplina:  {disciplina}\n | media final:  {media_final}\n | Resultado:  REPROVADO!")
+    print(f"\n | nome:  {nome}\n | curso:  {curso}\n | semestre:  {semestre}\n | discplina:  {disciplina}\n | media final:  {media_final}\n | Resultado:  PERDEU AURA -9999999 !!!")
